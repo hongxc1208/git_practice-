@@ -22,7 +22,7 @@ class Star {
   float x;
   float y; 
   float radius;
-  Star(float tempX, float tempY, float tempRadius){
+  Star(float tempX, float tempY, float tempRadius){   //constructor 
     x = tempX;
     y = tempY;
     radius = tempRadius;
