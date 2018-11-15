@@ -13,8 +13,14 @@ void setup() {
 }
 
 void draw() {
-  fill(myArray[0][0]);
-  rect(0, 0, width/5, height/5);
-  fill(myArray[0][1]);
-  rect(80,0,width/5,height/5);
+  
+  for ( int i = 0 ; i < 5; i++){
+    for (int j = 0 ; j < 5; j ++){
+        fill(myArray[i][j]);
+        rect(i* width/5, j * height/5, width/5, height/5);
+
+    }  
+  
+  }
+
 }
