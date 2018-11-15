@@ -11,11 +11,11 @@ void draw() {
   background(255);
   for (int i = 0; i < 10; i++) {
     for(int j = 0; j < 10; j ++){
-       int x = i * 50 + 25;
+      int x = i * 50 + 25;
       int y = j * 50 + 25;
-      float color1;
+      fill(i * 25);           //adding 25 value to the i each time. 
     ellipse(x, y, radius, radius);
-    fill(map(color1, 0 , width, 0, 255));
+    
     }
   }
   
